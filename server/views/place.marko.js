@@ -45,21 +45,23 @@ function render(input, out, __component, component, state) {
     marko_escapeXml(input.place.name) +
     "</div></div><div class=\"default-div resto-description\">" +
     marko_escapeXml(input.place.description) +
-    "</div><div class=\"default-div\"><div class=\"container\"><form class=\"form\" action=\"/comment\" method=\"POST\"><div class=\"form-group\"><label>Name</label><input type=\"text\" name=\"name\" class=\"form-control\"></div><div class=\"form-group\"><label>Rating</label><div class=\"row\"><div class=\"rating\"><input type=\"radio\" id=\"star5\" name=\"rating\" value=\"5\"><label for=\"star5\">5 stars</label><input type=\"radio\" id=\"star4\" name=\"rating\" value=\"4\"><label for=\"star4\">4 stars</label><input type=\"radio\" id=\"star3\" name=\"rating\" value=\"3\"><label for=\"star3\">3 stars</label><input type=\"radio\" id=\"star2\" name=\"rating\" value=\"2\"><label for=\"star2\">2 stars</label><input type=\"radio\" id=\"star1\" name=\"rating\" value=\"1\"><label for=\"star1\">1 star</label></div></div></div><div class=\"form-group\"><label>Comment</label><textarea name=\"comment\" class=\"form-control\"></textarea></div><div class=\"form-group\"><button type=\"submit\">Submit</button></div></form></div><div>");
+    "</div><div class=\"default-div\"><div class=\"container\"><h1> Write a review... </h1><form class=\"form\"" +
+    marko_attr("action", "/places/" + input.place.id) +
+    " method=\"POST\"><div class=\"form-group\"><label>Name</label><input type=\"text\" name=\"name\" class=\"form-control\"></div><div class=\"form-group\"><label>Rating</label><div class=\"row\"><div class=\"rating\"><input type=\"radio\" id=\"star5\" name=\"rating\" value=\"5\"><label for=\"star5\">5 stars</label><input type=\"radio\" id=\"star4\" name=\"rating\" value=\"4\"><label for=\"star4\">4 stars</label><input type=\"radio\" id=\"star3\" name=\"rating\" value=\"3\"><label for=\"star3\">3 stars</label><input type=\"radio\" id=\"star2\" name=\"rating\" value=\"2\"><label for=\"star2\">2 stars</label><input type=\"radio\" id=\"star1\" name=\"rating\" value=\"1\"><label for=\"star1\">1 star</label></div></div></div><div class=\"form-group\"><label>Comment</label><textarea name=\"comment\" class=\"form-control\"></textarea></div><div class=\"form-group\"><button type=\"submit\">Submit</button></div></form><div id=\"comments\">");
 
-  var for__57 = 0;
+  var for__58 = 0;
 
-  marko_forEach(input.comments, function(comment) {
-    var keyscope__58 = "[" + ((for__57++) + "]");
+  marko_forEach(input.place.comments, function(comment) {
+    var keyscope__59 = "[" + ((for__58++) + "]");
 
     out.w("<div><h2>" +
       marko_escapeXml(comment.name) +
       "'s review</h2>");
 
-    var for__61 = 0;
+    var for__62 = 0;
 
     for (var i = 1; i <= comment.rating; i++) {
-      var keyscope__62 = "[" + (((for__61++) + keyscope__58) + "]");
+      var keyscope__63 = "[" + (((for__62++) + keyscope__59) + "]");
 
       out.w("<span>★</span>");
     }
@@ -69,11 +71,11 @@ function render(input, out, __component, component, state) {
       "</p></div>");
   });
 
-  out.w("</div></div>");
+  out.w("</div></div></div>");
 
   init_components_tag({}, out);
 
-  await_reorderer_tag({}, out, __component, "65");
+  await_reorderer_tag({}, out, __component, "66");
 
   out.w("</body><footer></footer></html>");
 }

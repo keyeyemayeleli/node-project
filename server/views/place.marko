@@ -43,7 +43,8 @@
         <div class="default-div resto-description">${input.place.description}</div>
         <div class="default-div">
             <div class="container">
-                <form class="form" action="/comment" method="POST">
+            <h1> Write a review... </h1>
+                <form class="form" action="/places/${input.place.id}" method="POST">
                     <div class="form-group">
                         <label>Name</label>
                         <input type="text" name="name" class="form-control"/>
@@ -68,19 +69,20 @@
                         <button type="submit">Submit</button>
                     </div>
                 </form>
+                <div id="comments">
+                    <for(comment in input.place.comments)>
+                        <div>
+                            <h2>${comment.name}'s review</h2>
+                            <for(var i=1; i<=comment.rating; i++)>
+                                    <span>★</span>
+                            </for>
+                            <p>${comment.comment}</p>
+                            
+                        </div>
+                    </for>
+                </div>
             </div>
-            <div>
-                <for(comment in input.comments)>
-                    <div>
-                        <h2>${comment.name}'s review</h2>
-                        <for(var i=1; i<=comment.rating; i++)>
-                                <span>★</span>
-                        </for>
-                        <p>${comment.comment}</p>
-                        
-                    </div>
-                </for>
-            </div>
+
         </div>
     </body>
     <footer>

@@ -41,19 +41,28 @@ app.get('/places/:id', function(req, res) {
     res.marko(view, data);
 });
 
-app.post('/places', function(req, res) {
+app.post('/places/:id', function(req, res) {
     let body = req.body;
     let places = store.get('places');
-    let place = places.find(places => parseInt(places.id) === parseInt(req.params.id));
-    res.redirect('/place');
+    let comment = {
+        name: body.name,
+        rating: body.rating,
+        comment: body.comment
+    }
+    places.find(places => parseInt(places.id) === parseInt(req.params.id)).comments.push(comment);
+    store.set({"places": places});
+    res.redirect('/places/' + req.params.id);
 });
 
 app.get('/addplace', function(req, res) {
     let view = require(path.join(viewsDirectory, 'add.marko'));
+    let places = store.get('places');
     let data = {
-        title: 'Add Place',
+        title: "Add Place",
+        places: places
     };
     res.marko(view, data);
+
 });
 
 app.post('/addplace', upload.single('file'), function(req, res) {

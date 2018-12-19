@@ -101,7 +101,7 @@ a.btn {
 }
 .default-div {
     height: 100vh;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 .resto-description {
     text-align: center;

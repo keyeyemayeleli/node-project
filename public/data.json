@@ -16,7 +16,13 @@
 			"imageloc": "/images/chucks.jpg",
 			"gmaps": "",
 			"address": "4636 J. Molina Street",
-			"comments": []
+			"comments": [
+				{
+					"name": "Test",
+					"rating": "4",
+					"comment": "Test"
+				}
+			]
 		},
 		{
 			"id": 3,
@@ -34,7 +40,18 @@
 			"imageloc": "/images/nokal.jpg",
 			"gmaps": "",
 			"address": "5072 SGC Building, P. Burgos corner B. Valdez Street",
-			"comments": []
+			"comments": [
+				{
+					"name": "Test",
+					"rating": "4",
+					"comment": "test"
+				},
+				{
+					"name": "Robin",
+					"rating": "5",
+					"comment": "Test"
+				}
+			]
 		},
 		{
 			"id": 5,
