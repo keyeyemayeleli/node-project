@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Poblacion Places</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <!-- <h1>Top 5 Places to Eat in Poblacion, Makati</h1> -->
+            </header>
+            <!-- <div id="banner"></div> -->
+            <div id="div-landing">
+                <!-- <div id="title-landing">Must-try Restaurants in Poblacion, Makati</div> -->
+                <div class="flex center">
+                <for(place in input.places)>
+                    <div class="parent-card">
+                            <a href="/places/${place.id}">
+                        <div class="card" style="background-image:url(${place.imageloc})"></div>
+                        <div class="divhead">
+                                <a href="/loco"><h4>${place.name}</h4></a>
+                                <h5>${place.address}</h5>
+                        </div></a>
+                    </div>
+                </for>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- <script src="js/noframework.waypoints.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="js/script.js"></script> -->
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,103 @@
+{
+	"places": [
+		{
+			"id": 1,
+			"name": "Loco Manuk",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/loco.jpg",
+			"gmaps": "",
+			"address": "5072 SGC Building, P. Burgos corner B. Valdez Street",
+			"comments": []
+		},
+		{
+			"id": 2,
+			"name": "Chuck's Deli",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/chucks.jpg",
+			"gmaps": "",
+			"address": "4636 J. Molina Street",
+			"comments": []
+		},
+		{
+			"id": 3,
+			"name": "Ebi10",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/ebi10.jpg",
+			"gmaps": "",
+			"address": "Tambai Alley, 5779 Felipe Street",
+			"comments": []
+		},
+		{
+			"id": 4,
+			"name": "NoKal",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/nokal.jpg",
+			"gmaps": "",
+			"address": "5072 SGC Building, P. Burgos corner B. Valdez Street",
+			"comments": []
+		},
+		{
+			"id": 5,
+			"name": "Kermit Manila",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/kermit.jpg",
+			"gmaps": "",
+			"address": "8464 Kalayaan Avenue",
+			"comments": []
+		},
+		{
+			"id": 6,
+			"name": "Wantusawa Oyster Bar",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/wantusawa.jpg",
+			"gmaps": "",
+			"address": "Tambai Alley, 5779 Felipe Street",
+			"comments": []
+		},
+		{
+			"id": 7,
+			"name": "Taqueria Seta",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/taqueria.jpg",
+			"gmaps": "",
+			"address": "4988 P. Guanzon Street",
+			"comments": []
+		},
+		{
+			"id": 8,
+			"name": "Polilya",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/polilya.jpg",
+			"gmaps": "",
+			"address": "5658 Don Pedro Street",
+			"comments": []
+		},
+		{
+			"id": 9,
+			"name": "The Social",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/thesocial.jpg",
+			"gmaps": "",
+			"address": "5770 Ebro Street",
+			"comments": []
+		},
+		{
+			"id": 10,
+			"name": "Wicked Dogs",
+			"description": "Loco Manuk, located in Poblacion, Makati offers that uniquely flavourful and delectable Latin Asian taste. Our menu showcases our Chicken and Churros, Baos, Ribs, and more. The Loco Manuk experience is not complete without the chicken cooked over a wood fire with a light smoke of caimito and mahogany wood. We also serve specialty cocktails. This wicked twist and the rest of the menu was crafted by our Peruvian Chef, Danny Parreno.",
+			"imageloc": "/images/wickeddogs.jpg",
+			"gmaps": "",
+			"address": "2/F Lokal Hostel, 5769 Ebro Street",
+			"comments": []
+		},
+		{
+			"id": 11,
+			"name": "test",
+			"description": "test",
+			"imageloc": "/images/makati.jpg",
+			"gmaps": "",
+			"address": "test",
+			"comments": []
+		}
+	]
+}
