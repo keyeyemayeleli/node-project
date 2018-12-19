@@ -41,7 +41,7 @@ app.get('/places/:id', function(req, res) {
     res.marko(view, data);
 });
 
-app.post('/places/:id', function(req, res) {
+app.post('/places', function(req, res) {
     let body = req.body;
     let places = store.get('places');
     let place = places.find(places => parseInt(places.id) === parseInt(req.params.id));
